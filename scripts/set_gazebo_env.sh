@@ -6,3 +6,4 @@ export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/AH_hagel
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/AH_thee:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/AH_store:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/legacy_models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/gazebo_apriltag/models:$GAZEBO_MODEL_PATH
