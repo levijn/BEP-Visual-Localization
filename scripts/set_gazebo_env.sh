@@ -7,3 +7,7 @@ export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/AH_thee:
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/AH_store:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/legacy_models:$GAZEBO_MODEL_PATH
 export GAZEBO_MODEL_PATH=$(rospack find retail_store_simulation)/models/gazebo_apriltag/models:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=/home/daan/localization_ws/src/tiago_robot/tiago_description:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=/home/daan/localization_ws/src/pmb2_robot/pmb2_description:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=/home/daan/localization_ws/src/tiago_dual_robot/tiago_dual_description:$GAZEBO_MODEL_PATH
+export GAZEBO_MODEL_PATH=/home/daan/localization_ws/src/pal_gripper/pal_gripper_description:$GAZEBO_MODEL_PATH
